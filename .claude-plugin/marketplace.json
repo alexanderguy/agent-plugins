@@ -1,0 +1,18 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "agent-marketplace",
+  "description": "My personal plugins",
+  "owner": {
+    "name": "Alexander Guy"
+  },
+  "plugins": [
+    {
+      "name": "asg",
+      "description": "Development skills for code review and TypeScript conventions",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/alexanderguy/skills.git"
+      }
+    }
+  ]
+}
